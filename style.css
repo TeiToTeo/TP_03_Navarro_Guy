@@ -1,3 +1,26 @@
-.axel{
-    color: peru;
+
+body{
+    background: linear-gradient(rgb(255, 223, 242), rgb(184, 7, 80));
+}
+
+.titulo{
+    margin: 5rem;
+    color: rgb(0, 0, 0);
+}
+
+.main{
+    margin-left: 5rem;
+    margin-top: 3rem;
+    margin-right: 9rem;
+    margin: 3rem;
+}
+
+.buscador{
+    margin-top: 4rem;
+    margin: 4rem;
+}
+.botton{
+    margin: 4rem;
+    color:white;
+     background-color: lightpink !important; 
 }
