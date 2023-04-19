@@ -12,10 +12,7 @@ body{
     margin: 5rem;
     color: rgb(255, 255, 255);
 }
-.buscar{
-    background-color: black;
-  
-}
+
 .main{
     margin-left: 5rem;
     margin-top: 3rem;
@@ -29,3 +26,10 @@ body{
     color:white;
      background-color: rgb(165, 133, 185) !important; 
 }
+/*#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     overflow:hidden; 
+
+}*/
