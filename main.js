@@ -13,7 +13,7 @@ const fetchApi = async () => {
       //const elemento = document.createElement("div")
       document.getElementById("cards").innerHTML +=`
       <div class="card" style="width: 18rem;">
-      <img src="${element.thumbnail}" class="card-img-top">
+      <img src="${element.thumbnail}" class="card-img-top imgs">
       <div class="card-body">
         <h5 class="card-title">${element.title}</h5>
         <p class="${element.description}"</p>
@@ -28,5 +28,4 @@ const fetchApi = async () => {
       </div>
     </div>`
   });
-    document.getElementById("api-data").value = JSON.stringify(data)
 }
