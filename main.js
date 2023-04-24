@@ -20,9 +20,17 @@ const fetchApi = async () => {
           <li class="list-group-item">Categoria: ${element.category}</li>
         </ul>
         
-        <button class="button-card card-link btn botton" data-bs-toggle="modal" data-bs-target="#modal-detalles" onclick="abrirModal(${element.id})">Ver en detalle</button>
+        <button class="button-card card-link btn botton" data-bs-toggle="modal" data-bs-target="#modal-detalles" onclick="abrirModal('${element.title}', '${element.thumbnail}', '${element.price}', '${element.rating}', '${element.stock}')">Ver en detalle</button>
         <button class="button-card card-link btn botton">Agregar al carrito</button>
       </div>
     </div>`
   });
+}
+const abrirModal = (titulo, img, precio, rating, stock) =>
+{
+  document.getElementById("titulo").innerHTML = `${titulo}`
+  document.getElementById("img").src = `${img}`
+  document.getElementById("precio").innerHTML = `Precio: ${precio}`
+  document.getElementById("rating").innerHTML = `Rating: ${rating}`
+  document.getElementById("stock").innerHTML = `Stock: ${stock}`
 }
